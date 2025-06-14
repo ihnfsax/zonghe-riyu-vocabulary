@@ -74,7 +74,7 @@ def copy_file(old_name, new_name):
 
 
 def copy_and_add_metadata(csv_path, disc):
-    print('读取文件"' + file + '"...')
+    print('读取文件"' + csv_path + '"...')
     with open(csv_path, mode="r", encoding="utf-8") as file:
         reader = csv.reader(file)
         words = list(reader)
