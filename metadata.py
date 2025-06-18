@@ -4,7 +4,7 @@ from mutagen.id3 import ID3, TIT2, TPE1, TALB, TRCK, TPOS, TPE2
 file = "1-1. 新出単語（しんしゅつたんご）⑤.mp3"
 title = "新出単語（しんしゅつたんご）⑤"
 artist = "<名> 新单词；生词"
-album = "综合日语第一册2-1"
+album = "综合日语第一册单词2-1"
 track_num = 1
 disc_num = 1
 album_artist = "综合日语"

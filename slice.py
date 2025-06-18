@@ -9,7 +9,7 @@ audio_path = "2-1.mp3"
 audio_type = "mp3"
 file1 = "2-1 新出単語.csv"
 file2 = "2-1 練習用単語.csv"
-unit = "综合日语第一册2-1"
+unit = "综合日语第一册单词2-1"
 book = "综合日语"
 
 
