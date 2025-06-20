@@ -53,6 +53,9 @@ def handle_csv_file(input_file, tags):
                 col1 += " " + number
             word[0] = col0.strip()
             word.insert(1, col1.strip())
+            word[2] = word[2].replace("<", "&lt;")
+            word[2] = word[2].replace(">", "&gt;")
+            word.append("")  # 例句
             word.append(tags)
             result.append(word)
         return result
